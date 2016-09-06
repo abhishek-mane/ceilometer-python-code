@@ -1,0 +1,55 @@
+{
+	"credentials": {
+		"auth_url": "http://10.0.2.15:5000/v3",
+		"username": "admin",
+		"password": "devstack",
+		"tenant_name": "admin",
+		"user_domain_id": "default",
+		"project_domain_id": "default"
+	},
+	"filter": {
+		"meter": [
+			"vcpus",
+			"cpu_util",
+			"memory",
+			"disk.device.usage",
+			"disk.root.size",
+			"disk.ephemeral.size"
+		],
+		"user_id": "ce72bb8c3a8c454c8b8e383956b5df9b",
+		"tenant_id": "fee9234dffd144729b7e8d5676bf94e2",
+		"timestamp_low_limit": "2016-08-31T00:00:00",
+		"timestamp_high_limit": "2016-09-07T00:00:00"
+	},
+	"comment": {
+		"about": [
+			"This is comment inside json & will not be parsed by the code.",
+			"It lists different meters that can be used with code"
+		],
+		"availableMeters": [
+			"cpu",
+			"cpu_util",
+			"memory",
+			"vcpus",
+			"disk.capacity",
+			"disk.device.allocation",
+			"disk.device.write.bytes",
+			"disk.device.write.requests",
+			"disk.ephemeral.size",
+			"disk.read.bytes",
+			"disk.read.requests",
+			"disk.write.bytes",
+			"disk.write.requests",
+			"disk.root.size",
+			"disk.usage",
+			"image",
+			"image.download",
+			"image.serve",
+			"image.size",
+			"network.incoming.bytes",
+			"network.incoming.packets",
+			"network.outgoing.bytes",
+			"network.outgoing.packets"
+		]
+	}
+}
